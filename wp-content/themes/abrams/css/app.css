@@ -1,0 +1,298 @@
+.pb-40 {
+  padding-bottom: 40px; }
+
+.pb-50 {
+  padding-bottom: 50px; }
+
+.pb-15 {
+  padding-bottom: 15px; }
+
+.pb-10 {
+  padding-bottom: 10px; }
+
+.pt-25 {
+  padding-top: 25px !important; }
+
+.pt-50 {
+  padding-top: 50px !important; }
+
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.ptb-25 {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.img-center {
+  display: block;
+  margin: 0 auto; }
+footer {
+  background: #162646;
+  padding: 20px 0px;
+  width: 100%;
+  color: #f0f0f0; }
+
+.footer-title {
+  text-align: center;
+  margin: 0px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 500;
+  text-decoration: underline; }
+
+.copyright {
+  padding: 10px 0px;
+  font-size: 12px;
+  background-color: #d0d0d0; }
+  .copyright a {
+    color: black; }
+
+#center-wrap {
+  float: left;
+  position: relative;
+  left: 50%; }
+
+#center-content {
+  float: left;
+  position: relative;
+  left: -50%; }
+#menu-bar {
+  border-bottom: 20px solid #162646; }
+  #menu-bar ul {
+    padding: 20px 0px;
+    margin: 0px;
+    float: right; }
+    #menu-bar ul li {
+      display: inline-block;
+      padding: 10px; }
+  #menu-bar img {
+    display: block; }
+
+header {
+  background: #fff; }
+.bg {
+  background: url("../img/blue-bg.jpg");
+  background-repeat: repeat;
+  background-size: cover; }
+
+.white-bg {
+  background: #fff; }
+
+.btn-blue {
+  background: #3764b6;
+  border: 2px solid #043562;
+  padding: 0.6em 1.2em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 3px;
+  display: inline-block; }
+  .btn-blue:hover {
+    color: #fff;
+    background: #043562;
+    border: 2px solid #3764b6;
+    text-decoration: none; }
+
+.page-title {
+  padding: 25px 0px;
+  background: #f0f0f0; }
+  .page-title h1 {
+    margin: 0px;
+    color: #043562; }
+.about h1 {
+  margin-top: 0px; }
+
+.about-hero {
+  width: 100%; }
+
+.office {
+  text-align: center; }
+  .office img {
+    max-height: 230px;
+    width: 100%; }
+.dr img {
+  border-radius: 50%; }
+
+#bio {
+  padding: 50px 0px 35px 0px; }
+  #bio img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px; }
+
+#doctors {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+.hero {
+  height: 450px;
+  width: 100%;
+  background: #bababa;
+  display: table; }
+
+.hero-content {
+  display: table-cell;
+  vertical-align: middle; }
+
+#page-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: white; }
+
+ul.eyecare {
+  list-style: none;
+  margin-left: 0px; }
+  ul.eyecare .list-title {
+    color: #043562;
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    font-size: 1.2em; }
+  ul.eyecare li {
+    display: inline-block;
+    width: 49%;
+    padding: 0px;
+    margin: 0px; }
+#lasik hr {
+  margin: 40px 0px; }
+#lasik ul {
+  list-style: none;
+  margin-left: 20px; }
+
+.no-link-color {
+  color: #555 !important; }
+
+.surgery-title {
+  color: #3764b6;
+  font-size: 1.2em;
+  font-weight: bold; }
+.insurance {
+  list-style: none; }
+  .insurance .insurance-title {
+    color: #043562;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: underline; }
+
+.panel {
+  background: #f0f0f0 !important;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border: #e0e0e0 1px solid; }
+
+.forms p {
+  padding-top: 10px; }
+.forms img {
+  outline: 2px solid; }
+/*  Min Width "1200px" */
+/*  Max Width "1169px" - Min Width "980px" */
+/* Max Width "979px" */
+/* Max Width "979px" - Min Width "768px" */
+/* Max Width "767px" */
+/* Max Width "600px" */
+/* Min Width "767px" */
+
+
+
+
+
+
+/********Theme Overrides*******/
+
+/* Header */
+#primary-menu.sub-title > ul > li:hover > a, #primary-menu.sub-title > ul > li.current > a, #primary-menu.sub-title > div > ul > li:hover > a, #primary-menu.sub-title > div > ul > li.current > a {
+    background-color: #3764b6 !important;
+}
+
+#header.sticky-style-3 {
+    height: 161px !important;
+}
+
+#primary-menu.style-2, #primary-menu.style-2 > div > ul, #primary-menu.style-2 > div > ul > li > a {
+    height: 60px !important;
+}
+
+.header-extras li .he-text span {
+    color: #3764b6 !important;
+}
+
+
+/* Footer */
+#footer {
+	margin-top: 0px !important;
+	font-size: 14px !important;
+	padding: 0px !important;
+}
+
+#footer .footer-widgets-wrap {
+	padding:50px 0px !important;
+}
+
+#copyrights {
+	padding: 10px 0px !important;
+}
+
+.footer-logo {
+	max-height: 50px;
+}
+
+
+/*Global*/
+.button {
+	background-color: #3764b6 !important;
+}
+
+body {
+	font-size: 16px !important;
+}
+
+/* Home */
+
+.slider-caption, .dark .slider-caption, .dark .slider-caption h2 {
+    text-shadow: 2px 1px 2px black !important;
+}
+
+	.slider-caption p {
+		font-size: 1.3em !important;
+	}
+
+/* About */
+
+#page-title.page-title-parallax {
+    background-image: url('../img/abrams-eyecare-office.jpg') !important;
+}
+
+#page-title.page-title-parallax h1 {
+    text-shadow: 2px 1px black;
+  }
+
+/* Doctors */
+
+.team-title {
+	padding-top: 0px !important;
+}
+
+.team-desc {
+	min-height: 475px !important;
+	border: 2px solid #f5f5f5;
+	box-shadow: 0px 32px 20px -20px #d0d0d0;
+}
+
+	.team-desc:hover {
+		outline:2px solid #337ab7;
+	}
+
+	.team-desc h4:hover {
+		color: #337ab7 !important;
+	}
+
+	.team-desc img:hover {
+		box-shadow: 0px 0px 4px 3px #337ab7;
+	}
+
+	.team-desc p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
