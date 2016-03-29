@@ -81,9 +81,9 @@
             <ul>
               <li><a href="<?php bloginfo('url'); ?>"><div>Home</div></a></li>
               <li><a href="<?php bloginfo('url'); ?>/about"><div>About Us</div></a></li>
-              <li><a href="doctor-abrams.html"><div>Our Doctors</div></a>
+              <li><a href="<?php bloginfo('url'); ?>/doctors"><div>Our Doctors</div></a>
                 <ul>
-                  <li><a href="<?php bloginfo('url'); ?>/doctor-abrams"><div>Dr. Abrams</div></a></li>
+                  <li><a href="<?php bloginfo('url'); ?>/doctors"><div>Dr. Abrams</div></a></li>
                   <li><a href="doctor-jj-abrams.html"><div>Dr. JJ Abrams</div></a></li>
                   <li><a href="doctor-jones.html"><div>Dr. Jones</div></a></li>
                   <li><a href="doctor-lloyd.html"><div>Dr. Lloyd</div></a></li>
