@@ -125,7 +125,7 @@
                   </ul>
                 </div>
               </li>
-             <li class="mega-menu"><a href="eye-procedures.html"><div>Eye Procedures</div></a>
+             <li class="mega-menu"><a href="<?php bloginfo('url'); ?>/procedures"><div>Eye Procedures</div></a>
                  <div class="mega-menu-content col-2 clearfix">
                   <ul>
                     <li>
