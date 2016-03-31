@@ -72,14 +72,15 @@ get_header(); ?>
 							jQuery('#google-map').gMap({
 
 								address: '11455 N. Meridian Street, Carmel, IN',
+								styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#000"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":5}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#1861e5"},{"visibility":"on"}]}],
 								maptype: 'ROADMAP',
 								zoom: 14,
 								markers: [
 									{
-										address: "Melbourne, Australia",
-										html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+										address: "11455 N. Meridian Street, Carmel, IN",
+										html: '<div style="width: 300px;" class="text-center"><h4 style="margin-bottom: 8px;"><span>Abrams Eyecare</span></h4><p class="nobottommargin">11455 N. Meridian Street <br> Carmel, IN 46032</p></div>',
 										icon: {
-											image: "images/icons/map-icon-red.png",
+											image: "<?php echo get_template_directory_uri(); ?>/img/map-icon.png",
 											iconsize: [32, 39],
 											iconanchor: [32,39]
 										}
@@ -140,15 +141,16 @@ get_header(); ?>
 
 							jQuery('#google-map3').gMap({
 
-								address: '11455 N. Meridian Street, Carmel, IN',
+								address: '1801 North Senate Suite 620, Indianapolis, IN',
+								styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#000"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":5}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#1861e5"},{"visibility":"on"}]}],
 								maptype: 'ROADMAP',
 								zoom: 14,
 								markers: [
 									{
-										address: "Melbourne, Australia",
-										html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+										address: "1801 North Senate Suite 620, Indianapolis, IN",
+										html: '<div style="width: 300px;" class="text-center"><h4 style="margin-bottom: 8px;"><span>Abrams Eyecare</span></h4><p class="nobottommargin">1801 North Senate Suite 620<br>Indianapolis, IN 46202</p></div>',
 										icon: {
-											image: "images/icons/map-icon-red.png",
+											image: "<?php echo get_template_directory_uri(); ?>/img/map-icon.png",
 											iconsize: [32, 39],
 											iconanchor: [32,39]
 										}
@@ -161,7 +163,7 @@ get_header(); ?>
 									mapTypeControl: true,
 									scaleControl: false,
 									streetViewControl: false,
-									overviewMapControl: false
+									overviewMapControl: false,
 								}
 
 							});
@@ -211,15 +213,16 @@ get_header(); ?>
 
 							jQuery('#google-map2').gMap({
 
-								address: '11455 N. Meridian Street, Carmel, IN',
+								address: '6920 Parkdale Place Suite 206, Indianapolis, IN',
+								styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#000"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":5}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#1861e5"},{"visibility":"on"}]}],
 								maptype: 'ROADMAP',
 								zoom: 14,
 								markers: [
 									{
-										address: "Melbourne, Australia",
-										html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+										address: "6920 Parkdale Place Suite 206, Indianapolis, IN",
+										html: '<div style="width: 300px;" class="text-center"><h4 style="margin-bottom: 8px;"><span>Abrams Eyecare</span></h4><p class="nobottommargin">6920 Parkdale Place Suite 206 <br> Indianapolis, IN 46254</p></div>',
 										icon: {
-											image: "images/icons/map-icon-red.png",
+											image: "<?php echo get_template_directory_uri(); ?>/img/map-icon.png",
 											iconsize: [32, 39],
 											iconanchor: [32,39]
 										}

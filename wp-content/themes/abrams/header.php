@@ -45,8 +45,8 @@
         <!-- Logo
         ============================================= -->
         <div id="logo">
-          <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img class="img-center" src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg"></a>
-          <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img class="img-center" src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg"></a>
+          <a href="<?php bloginfo('url'); ?>" class="standard-logo" data-dark-logo="images/logo-dark.png"><img class="img-center" src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg"></a>
+          <a href="<?php bloginfo('url'); ?>" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img class="img-center" src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg"></a>
         </div><!-- #logo end -->
 
         <ul class="header-extras">
@@ -101,12 +101,12 @@
                 </ul>
               </li>
               </li>
-              <li class="mega-menu"><a href="lasik.html"><div>Lasik</div></a>
+              <li class="mega-menu"><a href="<?php bloginfo('url'); ?>/lasik-home"><div>Lasik</div></a>
                  <div class="mega-menu-content col-2 clearfix">
                   <ul>
                     <li>
                       <ul>
-                        <li><a href="lasik.html"><div>LASIK Home</div></a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/lasik-home"><div>LASIK Home</div></a></li>
                         <li><a href="lasik-surgery.html"><div>LASIK Surgery</div></a></li>
                         <li><a href="prk.html"><div>PRK</div></a></li>
                         <li><a href="custom.html"><div>Custom LVC</div></a></li>
