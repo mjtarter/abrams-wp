@@ -110,6 +110,7 @@ get_header(); ?>
 		<!-- Content
 		============================================= -->
 		<section id="content">
+
 				<div class="container clearfix topmargin">
 
 					<h3>Abrams EyeCare Associates is one of the most comprehensive eye care groups in central Indiana.</h3>
@@ -120,41 +121,38 @@ get_header(); ?>
 
 					<div class="clear"></div><div class="line bottommargin-lg"></div>
 
-					<div class="col_two_fifth nobottommargin text-center">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/abrams-eyecare-office.jpg">
-					</div>
+					<?php
+						$args = array(
+					    	'post_type' => 'new_content',
+							'posts_per_page' => -1,
+						);
+						$query = new WP_query($args);
+					?>
 
+
+
+					 <?php if ($query->have_posts() ) : while($query->have_posts() ) : $query->the_post(); ?>
+
+					<div class="col_two_fifth nobottommargin text-center">
+						<img src="<?php the_field('image'); ?>">
+					</div>
 					<div class="col_three_fifth nobottommargin col_last">
 
 						<div class="heading-block">
-							<h2>New Office</h2>
+							<h2><?php the_field('title'); ?></h2>
 						</div>
-
-						<p>New West office: 6920 Parkdale Place has moved to 3850 Shore Drive Suite 100</p>
+						<p><?php the_field('text'); ?></p>
 
 					</div>
 
 					<div class="clear"></div><div class="line bottommargin-lg"></div>
 
-					<div class="col_two_fifth nobottommargin text-center">
-						<img class="img-center" src="<?php echo get_template_directory_uri(); ?>/img/smart-board.jpg">
-					</div>
+					<?php endwhile; endif; ?>
 
-					<div class="col_three_fifth nobottommargin col_last">
-
-						<div class="heading-block">
-							<h2>Caring for our Community</h2>
-						</div>
-
-						<p>Abrams EyeCare participated at the "Through the Looking Glass" Gala fundraiser for the IN School for the Blind and donated a "SmartBoard" to the school. SmartBoards visual technology helps make images larger and more effective. Anything that is on a computer can be displayed on the SmartBoard, and printed into braille. SmartBoards have a suite of tools for teachers to enhance classroom learning and interaction. These SmartBoards get students up and out of their seats, interacting on the SmartBoard and with other students.</p>
-
-					</div>
-
-					<div class="clear"></div>
 
 				</div>
 
-				<div class="section nobottommargin topmargin-lg" data-animate="fadeIn" style="animation-duration: .5s;">
+				<div class="section nobottommargin">
 					<div class="container clearfix">
 
 						<div class="heading-block center">
@@ -229,5 +227,5 @@ get_header(); ?>
 				</div>
 
 		</section><!-- #content end -->
-		
+
 <?php get_footer(); ?>
