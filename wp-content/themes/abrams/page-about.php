@@ -49,7 +49,7 @@ get_header(); ?>
 							<h4>North</h4>
 						</div>
 
-						<img src="<?php echo get_template_directory_uri(); ?>/img/abrams-eyecare-office.jpg">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/abrams-office-west.jpeg">
 
 					</div>
 
@@ -58,7 +58,7 @@ get_header(); ?>
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
 							<h4>Midtown</h4>
 						</div>
-						
+
 						<img src="<?php echo get_template_directory_uri(); ?>/img/abrams-midtown-office.jpg">
 
 					</div>
@@ -68,8 +68,8 @@ get_header(); ?>
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
 							<h4>West</h4>
 						</div>
-						
-						<img src="<?php echo get_template_directory_uri(); ?>/img/abrams-office-west.jpeg">
+
+						<img src="<?php echo get_template_directory_uri(); ?>/img/abrams-eyecare-office.jpg">
 
 					</div>
 
