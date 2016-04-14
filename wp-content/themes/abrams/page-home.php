@@ -21,7 +21,7 @@ get_header(); ?>
 						<div class="container clearfix">
 							<div class="slider-caption slider-caption-center">
 								<h2 data-caption-animate="fadeInUp">New Office!</h2>
-								<p data-caption-animate="fadeInUp" data-caption-delay="200">Our WEST office is moving around the corner. Stay tuned for more updates and exact moving dates.</p>
+								<p data-caption-animate="fadeInUp" data-caption-delay="200">Our WEST office is now open! <br>3850 Shore Drive Suite 100</p>
 							</div>
 						</div>
 						<div class="video-wrap" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/abrams-eyecare-office.jpg'); background-size: cover; background-position: center center;">
@@ -130,7 +130,7 @@ get_header(); ?>
 							<h2>New Office</h2>
 						</div>
 
-						<p>Our West office is moving late March or early April! Moving to the first floor of Eagle Properties just around the corner on Shore Drive. Keep checking here for updates and photos as construction progresses.</p>
+						<p>New West office: 6920 Parkdale Place has moved to 3850 Shore Drive Suite 100</p>
 
 					</div>
 

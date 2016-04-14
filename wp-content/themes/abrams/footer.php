@@ -132,7 +132,7 @@
         <div class="container clearfix">
 
           <div class="col-lg-12 nobottommargin text-center">
-            Copyright &nbsp; | &nbsp; Privacy Notice &nbsp; | &nbsp; Disclaimer
+            <a href="<?php bloginfo('url'); ?>/copyright">Copyright</a> &nbsp; | &nbsp; <a href="<?php bloginfo('url'); ?>/privacy-notice">Privacy Notice</a> &nbsp; | &nbsp;  <a href="<?php bloginfo('url'); ?>/disclaimer">Disclaimer</a>
           </div>
 
         </div>

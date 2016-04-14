@@ -182,7 +182,7 @@ get_header(); ?>
 						<div class="col-md-6">
 							<address>
 								<strong>Address:</strong><br>
-								6920 Parkdale Place Suite 206<br>
+								3850 Shore Drive Suite 100<br>
 								Indianapolis, IN 46254<br>
 							</address>
 							<abbr title="Phone Number"><strong>Phone:</strong></abbr> (317) 293-1420<br>
@@ -213,14 +213,14 @@ get_header(); ?>
 
 							jQuery('#google-map2').gMap({
 
-								address: '6920 Parkdale Place Suite 206, Indianapolis, IN',
+								address: '3850 Shore Drive Suite 100, Indianapolis, IN',
 								styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#000"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":5}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#1861e5"},{"visibility":"on"}]}],
 								maptype: 'ROADMAP',
 								zoom: 14,
 								markers: [
 									{
-										address: "6920 Parkdale Place Suite 206, Indianapolis, IN",
-										html: '<div style="width: 300px;" class="text-center"><h4 style="margin-bottom: 8px;"><span>Abrams Eyecare</span></h4><p class="nobottommargin">6920 Parkdale Place Suite 206 <br> Indianapolis, IN 46254</p></div>',
+										address: "3850 Shore Drive Suite 100, Indianapolis, IN",
+										html: '<div style="width: 300px;" class="text-center"><h4 style="margin-bottom: 8px;"><span>Abrams Eyecare</span></h4><p class="nobottommargin">3850 Shore Drive Suite 100 <br> Indianapolis, IN 46254</p></div>',
 										icon: {
 											image: "<?php echo get_template_directory_uri(); ?>/img/map-icon.png",
 											iconsize: [32, 39],

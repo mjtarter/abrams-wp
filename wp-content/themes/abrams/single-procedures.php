@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+<div class="bg">
 
   <!-- Page Title
     ============================================= -->
@@ -39,5 +40,6 @@ get_header(); ?>
       </div>
     </div>
   </div>
+</div>
 
 <?php get_footer(); ?>

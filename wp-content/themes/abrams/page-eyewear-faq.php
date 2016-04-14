@@ -29,7 +29,7 @@ get_header(); ?>
 
 					<!-- Post Content
 					============================================= -->
-					<div class="postcontent col_last nobottommargin clearfix">
+					<div class="postcontent nobottommargin clearfix width-100">
 
 						<div id="faqs" class="faqs">
 
